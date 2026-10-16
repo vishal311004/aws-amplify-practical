@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fb;
+    color: #263238;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #123c69, #2196f3);
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+nav {
+    background: #102a43;
+    text-align: center;
+    padding: 14px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #64d8ff;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px;
+}
+
+.hero {
+    background: white;
+    padding: 45px 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000012;
+}
+
+.hero h2 {
+    color: #1565c0;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 18px;
+}
+
+button {
+    background: #1565c0;
+    color: white;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0d47a1;
+}
+
+#message {
+    color: #087443;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#services,
+.about {
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+#services h2,
+.about h2 {
+    color: #1565c0;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 220px;
+    box-shadow: 0 4px 15px #00000010;
+}
+
+.card h3 {
+    color: #1976d2;
+    margin-bottom: 10px;
+}
+
+.about {
+    background: white;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+
+footer {
+    background: #102a43;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
